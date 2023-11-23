@@ -1,0 +1,29 @@
+header {
+  background-color: #456ea0;
+  padding: 3px;
+  color: white;
+  width: 100%;
+  position: fixed; /* Adiciona essa propriedade para fixar o header no topo */
+  top: 0; /* Fixa o header no topo da tela */
+  z-index: 1000; /* Garante que o header esteja acima de outros elementos */
+  font-size: 15px;
+}
+
+body {
+  padding-top: 40px; /* Ajuste conforme necessário */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
